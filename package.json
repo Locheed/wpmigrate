@@ -1,0 +1,24 @@
+{
+  "name": "wpmigrate",
+  "version": "1.0.0",
+  "description": "Node CLI to download plugins and files from WordPress Production environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mika Vesasto",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "figlet": "^1.5.0",
+    "inquirer": "^8.0.0",
+    "rsync": "^0.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
